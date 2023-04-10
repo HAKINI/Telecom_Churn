@@ -11,4 +11,4 @@ graphviz>=0.20.1
 pydotplus>=2.0.2
 matplotlib==3.5.3
 scikit-plot==0.3.7
-IPython==8.6.0
+ipython==8.6.0

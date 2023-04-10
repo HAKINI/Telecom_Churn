@@ -31,7 +31,7 @@ import pydotplus
 
 
 # Fonction pour le chargement du dataset
-@st.cache_data
+@st.cache
 def load_data():
     data = pd.read_excel('./data/telecom_churn_cleaned.xlsx')
     return data
