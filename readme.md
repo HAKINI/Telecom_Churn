@@ -1,5 +1,6 @@
 # Analyse du désabonnement des clients des télécommunications
-========================================================================================================================================
+### By Eddy Rigaud Neoma BS - Marketing & Data Analytics Groupe 1
+===========================================================================================================================================
 
 ## Objectifs
 ### "Prédire le Churn et analyser le comportement des clients pour les fidéliser."
