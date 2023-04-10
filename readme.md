@@ -14,3 +14,5 @@
 
 ### Le script de la page Streamlit, qui présente les résultats sous forme interactive, est : Telecom_Churn_App.ipynb. Vous pouvez accéder à la page Streamlit en suivant ce lien : [Telecom Churn App ](https://hakini-telecom-churn-telecom-churn-app-tsudjz.streamlit.app/)
  
+
+### By Eddy Rigaud Neoma BS - Marketing & Data Analytics Groupe 1
