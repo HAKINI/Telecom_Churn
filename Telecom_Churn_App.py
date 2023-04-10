@@ -397,6 +397,7 @@ elif page == 'Prédiction':
     eve_charge = st.slider("Coût des appels le soir", min_value=float(X['Eve_Charge'].min()), max_value=float(X['Eve_Charge'].max()), value=20.0)
     day_charge = st.slider("Coût des appels par jour", min_value=float(X['Day_Charge'].min()), max_value=float(X['Day_Charge'].max()), value=30.0)
 
+
     if st.button("Prédire la désabonnement"):
         client_data = create_client_data(data, X_test.columns, account_length, intl_plan, vmail_plan, vmail_message, 
                                      day_mins, day_calls, day_charge, eve_mins, eve_calls, eve_charge, night_mins, 
