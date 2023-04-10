@@ -12,4 +12,5 @@
 
 ### Le Notebook contenant les analyses et les modèles prédictifs se nomme : Telecom_Churn_NB.ipynb.
 
-### Le script de la page Streamlit, qui présente les résultats sous forme interactive, est : Telecom_Churn_App.ipynb. Vous pouvez accéder à la page Streamlit en suivant ce lien : Telecom Churn App
+### Le script de la page Streamlit, qui présente les résultats sous forme interactive, est : Telecom_Churn_App.ipynb. Vous pouvez accéder à la page Streamlit en suivant ce lien : [Telecom Churn App ](https://hakini-telecom-churn-telecom-churn-app-tsudjz.streamlit.app/)
+ 
