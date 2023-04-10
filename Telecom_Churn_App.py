@@ -186,6 +186,7 @@ st.title("Analyse du désabonnement des clients des télécommunications \n Par 
 
 page = st.sidebar.radio("Choisissez une page", ['Exploration des données (EDA)', 'Prédiction'])
 
+
 if page == 'Exploration des données (EDA)':
     
     
