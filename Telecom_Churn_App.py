@@ -184,6 +184,8 @@ def plot_interactive_roc_curve(model, X_test, y_test):
 # Interface utilisateur Streamlit
 st.title("Analyse du désabonnement des clients des télécommunications \n Par Eddy Rigaud PharmD candidate / Marketing & Data Analytics at Neoma BS")
 
+
+
 page = st.sidebar.radio("Choisissez une page", ['Exploration des données (EDA)', 'Prédiction'])
 
 
