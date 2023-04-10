@@ -246,7 +246,11 @@ if page == 'Exploration des données (EDA)':
     # On va mettre en évidence ce que l'on a étudié sur le notebook cad La corrélation entre les variable de Minutes et de Charges dans notre dataset. 
     # Cela nous sera utile pour les prédiction lors de l'utilisation du model.
     st.subheader("Corrélations entre les variables")
-    correlations = data.corr()
+        # Sélectionner uniquement les colonnes numériques
+    numerical_data = data.select_dtypes(include=[np.number])
+
+    # Calculer la corrélation sur les données numériques uniquement
+    correlations = numerical_data.corr()
     fig = go.Figure(go.Heatmap(z=correlations, x=correlations.columns, y=correlations.columns, colorscale='viridis'))
     st.plotly_chart(fig)
 
